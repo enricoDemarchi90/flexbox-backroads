@@ -497,6 +497,26 @@ Deals
   gap: 0.5em;
 }
 
+.contact-form ::-webkit-input-placeholder {
+  color: var(--clr-grey-7);
+  font-size: 1.2em;
+}
+
+.contact-form ::-moz-placeholder {
+  color: var(--clr-grey-7);
+  font-size: 1.2em;
+}
+
+.contact-form :-ms-input-placeholder {
+  color: var(--clr-grey-7);
+  font-size: 1.2em;
+}
+
+.contact-form ::-ms-input-placeholder {
+  color: var(--clr-grey-7);
+  font-size: 1.2em;
+}
+
 .contact-form ::placeholder {
   color: var(--clr-grey-7);
   font-size: 1.2em;
